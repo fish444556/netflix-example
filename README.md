@@ -3,8 +3,7 @@
 I implemented this application using React as Front-end part and Express as the Back-end part.
 
 ## Effect
-![netflix2](https://user-images.githubusercontent.com/19919389/36267541-21b59514-1242-11e8-814a-2a62f795a7b2.gif)
-
+![netflix](https://user-images.githubusercontent.com/19919389/36699166-e6349cfc-1b19-11e8-87cd-d1be3603fbb5.gif)
 
 ## Installation
 
