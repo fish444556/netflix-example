@@ -47,7 +47,6 @@ export default class NetflixList extends Component {
 
 	renderItem(listData, remove, title, showTitleOnly = false) {
 		if (showTitleOnly) {
-			debugger
 			const titles = listData.map(ele => ele.title);
 			return (
 				<div>
