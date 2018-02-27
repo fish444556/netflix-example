@@ -73,9 +73,9 @@ export default class NetflixList extends Component {
 						return (
 							<li key={ele.id} className='item-li'>
 				        <div className='item-img'>
-				          <div className='item-title'>
+				          {/*<div className='item-title'>
 				            {ele.title}
-				          </div>
+				          </div>*/}
 				          <img src={ele.img} />
 
 				          <div className='item-btn'>
@@ -99,8 +99,12 @@ export default class NetflixList extends Component {
 			return <div> Loading </div>;
 		}
 		const { mylist, recommendations } = this.state;
+		const imgURL = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netflix_logo.svg/2000px-Netflix_logo.svg.png';
 		return (
 			<div className='container'>
+				<div className='logo'>
+					<img src={`${imgURL}`} alt='netflix logo' />
+				</div>
 				{this.renderItem(mylist, true, 'My List')}
 				{this.renderItem(recommendations, false, 'Recommendations')}
 				{this.renderItem(mylist, true, 'Titles of My List', true)}
